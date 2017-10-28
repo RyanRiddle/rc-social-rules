@@ -46,7 +46,8 @@ def print_rules():
     print(colored('No backseat driving', 'green', 'on_grey'))
     print(colored('No subtle-isms', 'green', 'on_grey'))
 
-print_computer()
-print()
-print_rules()
+if __name__ == '__main__':
+    print_computer()
+    print()
+    print_rules()
 
