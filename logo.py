@@ -41,10 +41,10 @@ def print_computer():
       print(line)
 
 def print_rules():
-    print(colored('No', 'green', 'on_grey'), colored('feigning surprise', 'grey', 'on_white'))
-    print(colored('No', 'green', 'on_grey'), colored('well-actuallys', 'grey', 'on_white'))
-    print(colored('No', 'green', 'on_grey'), colored('backseat driving', 'grey', 'on_white'))
-    print(colored('No', 'green', 'on_grey'), colored('subtle-isms', 'grey', 'on_white'))
+    print(colored('No feigning surprise', 'green', 'on_grey'))
+    print(colored('No well-actuallys', 'green', 'on_grey'))
+    print(colored('No backseat driving', 'green', 'on_grey'))
+    print(colored('No subtle-isms', 'green', 'on_grey'))
 
 print_computer()
 print()
