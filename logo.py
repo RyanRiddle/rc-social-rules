@@ -43,6 +43,10 @@ def print_computer():
       print(line)
 
 def print_rules():
+    print(colored('Be rigorous', 'green', 'on_grey'))
+    print(colored('Strive for greatness', 'green', 'on_grey'))
+    print(colored('Reflect on your progress', 'green', 'on_grey'))
+    print()
     print(colored('No feigning surprise', 'green', 'on_grey'))
     print(colored('No well-actuallys', 'green', 'on_grey'))
     print(colored('No backseat driving', 'green', 'on_grey'))
